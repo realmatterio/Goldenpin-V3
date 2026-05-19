@@ -5,7 +5,7 @@
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    Google Drive 數據源                           │
-│  https://drive.google.com/drive/folders/1cZcxnHdliAgj3WMW...    │
+│  https://drive.google.com/drive/folders/1cZc...    │
 │  StockDailyPins(2024-2026).csv — Danny Sir 每日針位信號          │
 └─────────────────────────┬───────────────────────────────────────┘
                           │
@@ -66,7 +66,7 @@
 
 ```
 # ── 1. 配置 ─────────────────────────────────────────────
-DATA_DIR = Path("/Users/ttse/.openclaw/workspace-stock-goldenpin/data/...")
+DATA_DIR = Path("/Users/.openclaw/workspace-stock-goldenpin/data/...")
 CAPITULATION_MAX_DROP_30D = 0.25      # 30日跌幅 < 25%
 TIER_THRESHOLDS = {4: "S+⚡⚡", 3: "S+⚡", 2: "S+", 1: "S"}
 TRANCHE_PCT = [0.30, 0.40, 0.30]      # 3-Tranche 比例
