@@ -429,11 +429,10 @@ def execute_skill(skill_name, args):
 *Goldenpin V3 Skill* 係一個完整嘅量化交易系統：
 
 1. *數據源* → Google Drive CSV（Danny Sir 每日針位）
-
 2. *核心邏輯* → Capitulation Filter + Tier + 14 Indicators
 3. *輸出* → 每日儀表板 / 深度分析 / 回測報告
 4. *調用* → OpenClaw 自動匹配 + WhatsApp 觸發
 
 *價值：* 將 Raw Signals 轉化為 *可執行交易信號*，過濾 81% 假信號，歷史勝率 ~45%。
 
-有咩具體部分想深入了解？🔍
+
