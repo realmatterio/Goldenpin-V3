@@ -5,7 +5,7 @@
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │ Google Drive 數據源                                              │
-│ https://drive.google.com/drive/folders/1cZcxnHdliAgj3WMWxbqx0aqRdLkkNTHo │
+│ https://drive.google.com/drive/folders/1cZc....Ho               │
 │ StockDailyPins(2024-2026).csv — Danny Sir 每日針位信號            │
 └─────────────────────────┬───────────────────────────────────────┘
                           │
