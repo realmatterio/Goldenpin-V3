@@ -11,7 +11,7 @@
                           │
                           ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│ workspace-stock-goldenpin/data/                                   │
+│ ~/skill/data/pretrain                                   │
 │ 6 個 CSV 文件 (2024-2025 + 2026 年 1-5 月)                       │
 │ 51,431 行數據 | 1,584 隻股票 | HK/US/SZ/SS/ETF/Crypto/Gold      │
 └─────────────────────────┬───────────────────────────────────────┘
@@ -54,7 +54,7 @@ SKILL.md 係 OpenClaw Skill 嘅「身份證」，定義：
 | 字段 | 作用 |
 |------|------|
 | 觸發短語 | 用戶講「黃金針」「Goldenpin」「GoldDn」等自動匹配呢個 Skill |
-| 數據路徑 | 指向 `workspace-stock-goldenpin/data/Golden Pin Stockbot - OpenClaw/` |
+| 數據路徑 | 指向 `~/skill/data/pretrain` |
 | 功能描述 | V3.2 量化分析系統：Capitulation Filter + Tier + 14 Indicators |
 | 輸出格式 | 儀表板 / 深度分析 / 回測報告 |
 | 版本 | V3.2（基於逆向工程驗證） |
@@ -69,7 +69,7 @@ SKILL.md 係 OpenClaw Skill 嘅「身份證」，定義：
 
 ```python
 # ── 1. 配置 ─────────────────────────────────────────────
-DATA_DIR = Path("/Users/ttse/.openclaw/workspace-stock-goldenpin/data/Golden Pin Stockbot - OpenClaw/")
+DATA_DIR = Path("~/skill/data/pretrain")
 CAPITULATION_MAX_DROP_30D = 0.25  # 30日跌幅 < 25%
 TIER_THRESHOLDS = {4: "S+⚡⚡", 3: "S+⚡", 2: "S+", 1: "S"}
 TRANCHE_PCT = [0.30, 0.40, 0.30]  # 3-Tranche 比例
