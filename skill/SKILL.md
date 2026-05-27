@@ -32,7 +32,7 @@ goldenpin <股票編號>
 - 港股用 `.HK` 後綴，美股直接用代碼
 
 ### Step 3：搜索 Goldenpin 歷史數據庫
-- 讀取 `/Users/ttse/.openclaw/workspace-stock-goldenpin/data/Golden Pin Stockbot - OpenClaw/`
+- 讀取 `~/skill/data/pretrain`
 - 檢查 GoldenPinDown / GoldenPinUp / BluePinUp / WeakToStrong 信號
 
 ### Step 4：運行 V3.2 分析引擎
