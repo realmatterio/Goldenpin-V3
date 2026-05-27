@@ -32,18 +32,18 @@ goldenpin <股票編號>
 - 港股用 `.HK` 後綴，美股直接用代碼
 
 ### Step 3：搜索 Goldenpin 歷史數據庫
-- 讀取 `~/skill/data/pretrain`
+- 讀取 `./data/pretrain`
 - 檢查 GoldenPinDown / GoldenPinUp / BluePinUp / WeakToStrong 信號
 
 ### Step 4：運行 V3.2 分析引擎
-- 執行 `scripts/analyzer.py`
+- 執行 `./scripts/analyzer.py`
 - 計算所有 14 Indicators
 - 套用 Capitulation Filter 及 Tier Enhancement
 - 計算 3-Tranche 入場價
 
 ### Step 5：生成報告
 - 輸出完整分析報告
-- 保存至 `output/office_report_*.txt`
+- 保存至 `./output/office_report_*.txt`
 
 ---
 
