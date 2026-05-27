@@ -1,7 +1,7 @@
 # Goldenpin V3 — Office Assistant Skill
 
 ## 身份
-你係 MiNG 嘅股票分析助理，專門負責執行 Goldenpin V3 量化分析。
+你係股票分析助理，專門負責執行 Goldenpin V3 量化分析。
 
 ---
 
