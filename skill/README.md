@@ -153,12 +153,10 @@ OpenClaw 匹配 → 觸發 goldenpin-v3 skill
 
 ## 📚 相關文檔
 
-| 文檔 | 位置 | 說明 |
-|------|------|------|
-| Preface_0000.md || V3 系統核心邏輯（Capitulation/Tier/3-Tranche） |
-| Goldenpin_0000.md || Google Drive 數據源說明 |
+| 文檔 || 說明 |
+|------||------|
 | Skillme.md || 技能定義（含 V3.2 回測數據） |
-| README.md || **呢個文件** |
+| Studyme.md || Goldenpin V3.2 — 完整運作流程 |
 
 ---
 
