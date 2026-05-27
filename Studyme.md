@@ -61,7 +61,6 @@ Raw Pin Signals (太多、太亂)
 | 項目 | 說明 |
 |------|------|
 | **來源** | Danny Sir Daily Pin Signals |
-| **位置** | `workspace-stock-goldenpin/data/Golden Pin Stockbot - OpenClaw/` |
 | **格式** | CSV 檔案，每月一個 |
 | **更新** | 每日 |
 | **覆蓋** | 2024-01 至今 |
@@ -458,7 +457,7 @@ skills/goldenpin-v3/                ← 主 Skill
 
 ```bash
 # 每日儀表板
-cd ~/.openclaw/workspace/skills/goldenpin-v3
+cd ~/skill/
 python3 scripts/dashboard.py
 
 # 深度分析（含 14 Indicators）
