@@ -10,7 +10,7 @@ from pathlib import Path
 from datetime import datetime
 
 # ── Config ────────────────────────────────────────────────────────────────────
-DATA_DIR = Path("/Users/ttse/.openclaw/workspace-stock-goldenpin/data/Golden Pin Stockbot - OpenClaw")
+DATA_DIR = Path("../data/pretrain")
 OUTPUT_DIR = Path(__file__).parent.parent / "output"
 
 CAPITULATION_MAX_DROP_30D = 0.25
