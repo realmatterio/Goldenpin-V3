@@ -18,9 +18,9 @@ from pathlib import Path
 from datetime import datetime
 
 # ── 常量 ──────────────────────────────────────────────────────────────────────
-GOLDENPIN_DIR = Path("/Users/ttse/.openclaw/workspace/skills/goldenpin-v3")
+GOLDENPIN_DIR = Path("~/skill")
 SCRIPTS_DIR = GOLDENPIN_DIR / "scripts"
-DATA_DIR = Path("/Users/ttse/.openclaw/workspace-stock-goldenpin/data/Golden Pin Stockbot - OpenClaw")
+DATA_DIR = Path("~/data/pretrain")
 OUTPUT_DIR = GOLDENPIN_DIR / "output"
 
 # 股票市場映射
