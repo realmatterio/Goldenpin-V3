@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-DATA_DIR = Path("/Users/ttse/.openclaw/workspace-stock-goldenpin/data/Golden Pin Stockbot - OpenClaw")
+DATA_DIR = Path("../data/pretrain")
 
 print("=" * 70)
 print("📋 CSV 數據質量檢查")
