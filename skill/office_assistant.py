@@ -18,7 +18,7 @@ from pathlib import Path
 from datetime import datetime
 
 # ── 常量 ──────────────────────────────────────────────────────────────────────
-GOLDENPIN_DIR = Path("~/skill")
+GOLDENPIN_DIR = Path("./")
 SCRIPTS_DIR = GOLDENPIN_DIR / "scripts"
 DATA_DIR = GOLDENPIN_DIR / "data/pretrain"
 OUTPUT_DIR = GOLDENPIN_DIR / "output"
